@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>Store Locator</title>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
+  <style>
+    body {
+      background:#404040;
+      color:#f8f8f8;
+      font:500 20px/26px 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+      margin:0;
+      padding:0;
+      -webkit-font-smoothing:antialiased;
+      }
+    .sidebar {
+      width:33.3333%;
+      }
+    .pad2 {
+      padding:20px;
+      -webkit-box-sizing:border-box;
+         -moz-box-sizing:border-box;
+              box-sizing:border-box;
+      }
+    .map {
+      border-left:1px solid #fff;
+      position:absolute;
+      left:33.3333%;
+      width:66.6666%;
+      top:0;bottom:0;
+      }
+  </style>
+</head>
+<body>
+<div class='sidebar pad2'>Listing</div>
+<div id='map' class='map pad2'>Map</div>
+<script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibGV0aWNpYXNnIiwiYSI6ImNqOWFuY2VwaTE2a2kyeHFtZnJlMGs4dmgifQ.oeQwk_rI1bh4v2Kk5XiH7g';
+        // This adds the map to your page
+        var map = new mapboxgl.Map({
+          // container id specified in the HTML
+          container: 'map',
+          // style URL
+          style: 'mapbox://styles/mapbox/light-v9',
+          // initial position in [lon, lat] format
+          center: [-22.818063, -47.065075],
+          // initial zoom
+          zoom: 14
+        });
+</script>
+</body>
+</html>
