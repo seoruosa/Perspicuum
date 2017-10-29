@@ -1,0 +1,8 @@
+Distribuição homem/mulher institutos: https://plot.ly/~Akacoll/6.embed?link=false
+Naturalidade - Graduação em Química: https://plot.ly/~Akacoll/8.embed?link=false
+Despesas - Instituto de Química: https://plot.ly/~Akacoll/11.embed?link=false
+História (IFCH): https://plot.ly/~Akacoll/12.embed?link=false
+Eng. Mec. (FEM): https://plot.ly/~Akacoll/14.embed?link=false
+Medicina (FCM): https://plot.ly/~Akacoll/16.embed?link=false
+Intercambistas: https://plot.ly/~Akacoll/18.embed?link=false
+Despesas - SIAFEM (20 primeiras, porque fica muito poluído colocar todas): https://plot.ly/~Akacoll/20.embed?link=false
