@@ -17,7 +17,7 @@
 </head>
 
   <body>
-    <div class='sidebar1 pad2'>Listing</div>
+    <div class='sidebar1 pad2'>Perspicuum Unicamp</div>
     <div id='map' class='map pad2'>Map</div>
     <div id='tchau' class='sidebar' >
       <div style='overflow:hidden' >
@@ -483,6 +483,8 @@
                   details.innerHTML =  nomeInstPorUni(prop.unidade);
                   if (prop.phone) {
                     details.innerHTML += ' &middot; ' + prop.phoneFormatted;
+                  
+
                   }
                   
                   // Add an event listener for the links in the sidebar listing
@@ -522,7 +524,8 @@
                   .setHTML('<h3>'+ currentFeature.properties.unidade + '</h3>' +
                     '<h4>Mulheres: ' + currentFeature.properties.mulheres + '</h4>'+'<h4>Homens: ' + currentFeature.properties.homens + '</h4>'+'<h4><button onclick="backHome(); return true;">Volta</button>' + '</h4>')
                   .addTo(map);
-
+                  $("#tchau").css("display", "none");
+                document.getElementById("oi").className = "sidebar show";
                   document.getElementById("changeme").innerHTML = currentFeature.properties.unidade;
                   pagWebUnidade(currentFeature.properties.unidade);
               }
@@ -533,7 +536,6 @@
                 if (popUps[0]) popUps[0].remove();
                 $("#tchau").css("display", "block");
                 document.getElementById("oi").className = "sidebar hide";
-                document.getElementById("changeme").innerHTML = "sai";
               }
 
               function pagWebUnidade(unidade) {

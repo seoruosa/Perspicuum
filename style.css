@@ -69,6 +69,10 @@ a:hover {
     color: #101010;
 }
 
+.sidebar1 {
+    font-size: 25px;
+}
+
 .heading {
     background: #8B0000;
     color: #ffffff;
@@ -84,13 +88,17 @@ a:hover {
     display:block;
     z-index: 5;
     top:10% !important;
+
+    font-size: 25px;
 }
 
 .listings {
     height: 60%;
     overflow: auto;
     padding-bottom: 60px;
-    display:block
+    display:block;
+    padding-top: 30%;
+
 }
 
 .listings .item {
@@ -200,7 +208,10 @@ a:hover {
 
 
 iframe {
-    margin-top: 20px;
     width:500px;
     height:300px;
+}
+
+iframe::first-child{
+    margin-top: 30%;
 }
