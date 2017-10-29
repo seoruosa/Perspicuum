@@ -6,7 +6,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.067530,-22.823842']
+              "coordinates": [-47.067530,-22.823842]
             },
             "properties": {
               "unidade": "CGU",
@@ -18,7 +18,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.071063,-22.818033']
+              "coordinates": [-47.071063,-22.818033]
             },
             "properties": {
               "unidade": "CLE",
@@ -30,7 +30,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.111230,-22.794999']
+              "coordinates": [-47.111230,-22.794999]
             },
             "properties": {
               "unidade": "CPQBA",
@@ -42,7 +42,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.418239,-22.555996']
+              "coordinates": [-47.418239,-22.555996]
             },
             "properties": {
               "unidade": "FCA",
@@ -54,7 +54,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.065458,-22.824508']
+              "coordinates": [-47.065458,-22.824508]
             },
             "properties": {
               "unidade": "FCF",
@@ -66,7 +66,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.063109,-22.830187']
+              "coordinates": [-47.063109,-22.830187]
             },
             "properties": {
               "unidade": "FCM",
@@ -78,7 +78,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.065774,-22.816600']
+              "coordinates": [-47.065774,-22.816600]
             },
             "properties": {
               "unidade": "FE",
@@ -90,7 +90,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.067369,-22.820462']
+              "coordinates": [-47.067369,-22.820462]
             },
             "properties": {
               "unidade": "FEA",
@@ -102,7 +102,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.060881,-22.819335']
+              "coordinates": [-47.060881,-22.819335]
             },
             "properties": {
               "unidade": "FEAGRI",
@@ -114,7 +114,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.062033,-22.816584']
+              "coordinates": [-47.062033,-22.816584]
             },
             "properties": {
               "unidade": "FEC",
@@ -126,7 +126,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.066425,-22.820958']
+              "coordinates": [-47.066425,-22.820958]
             },
             "properties": {
               "unidade": "FEEC",
@@ -138,7 +138,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.072662,-22.815245']
+              "coordinates": [-47.072662,-22.815245]
             },
             "properties": {
               "unidade": "FEF",
@@ -150,7 +150,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.065926,-22.819567']
+              "coordinates": [-47.065926,-22.819567]
             },
             "properties": {
               "unidade": "FEM",
@@ -162,7 +162,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.063399,-22.830968']
+              "coordinates": [-47.063399,-22.830968]
             },
             "properties": {
               "unidade": "FENF",
@@ -174,7 +174,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.065623,-22.820421']
+              "coordinates": [-47.065623,-22.820421]
             },
             "properties": {
               "unidade": "FEQ",
@@ -186,7 +186,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.649804,-22.702861']
+              "coordinates": [-47.649804,-22.702861]
             },
             "properties": {
               "unidade": "FOP",
@@ -198,7 +198,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.427585,-22.563874']
+              "coordinates": [-47.427585,-22.563874]
             },
             "properties": {
               "unidade": "FT",
@@ -210,7 +210,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.064503,-22.815407']
+              "coordinates": [-47.064503,-22.815407]
             },
             "properties": {
               "unidade": "IA",
@@ -222,7 +222,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.069409,-22.819369']
+              "coordinates": [-47.069409,-22.819369]
             },
             "properties": {
               "unidade": "IB",
@@ -234,7 +234,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.063961,-22.813748']
+              "coordinates": [-47.063961,-22.813748]
             },
             "properties": {
               "unidade": "IC",
@@ -246,7 +246,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.065787,-22.814770']
+              "coordinates": [-47.065787,-22.814770]
             },
             "properties": {
               "unidade": "IE",
@@ -258,7 +258,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.069355,-22.815140']
+              "coordinates": [-47.069355,-22.815140]
             },
             "properties": {
               "unidade": "IEL",
@@ -270,7 +270,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.068355,-22.815012']
+              "coordinates": [-47.068355,-22.815012]
             },
             "properties": {
               "unidade": "IFCH",
@@ -282,7 +282,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.067310,-22.817600']
+              "coordinates": [-47.067310,-22.817600]
             },
             "properties": {
               "unidade": "IFGW",
@@ -294,7 +294,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.065395,-22.824003']
+              "coordinates": [-47.065395,-22.824003]
             },
             "properties": {
               "unidade": "IG",
@@ -306,7 +306,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.067598,-22.815650']
+              "coordinates": [-47.067598,-22.815650]
             },
             "properties": {
               "unidade": "IMECC",
@@ -318,7 +318,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.067542,-22.819438']
+              "coordinates": [-47.067542,-22.819438]
             },
             "properties": {
               "unidade": "IQ",
@@ -330,7 +330,7 @@
             "type": "Feature",
             "geometry": {
               "type": "Point",
-              "coordinates": ['-47.067052,-22.824371']
+              "coordinates": [-47.067052,-22.824371]
             },
             "properties": {
               "unidade": "PRG",
