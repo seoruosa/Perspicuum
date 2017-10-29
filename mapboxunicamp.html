@@ -2,41 +2,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="plotly-latest.min.js"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
+
   <meta charset=utf-8 />
   <title>Store Locator</title>
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
+  
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
-  <style>
-    body {
-      background:#404040;
-      color:#f8f8f8;
-      font:500 20px/26px 'Helvetica Neue', Helvetica, Arial, Sans-serif;
-      margin:0;
-      padding:0;
-      -webkit-font-smoothing:antialiased;
-      }
-    .sidebar {
-      width:33.3333%;
-      }
-    .pad2 {
-      padding:20px;
-      -webkit-box-sizing:border-box;
-         -moz-box-sizing:border-box;
-              box-sizing:border-box;
-      }
-    .map {
-      border-left:1px solid #fff;
-      position:absolute;
-      left:33.3333%;
-      width:66.6666%;
-      top:0;bottom:0;
-      }
-  </style>
+  <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-<div class='sidebar pad2'>Listing</div>
-<div id='map' class='map pad2'>Map</div>
-<script>
+
+  <body>
+    <div class='sidebar1 pad2'>Listing</div>
+    <div id='map' class='map pad2'>Map</div>
+    <div id='tchau' class='sidebar' >
+      <div style='overflow:hidden' >
+        <div  class='heading'>
+          <h1 >Institutos</h1>
+        </div>
+        <div id='listings' class='listings'></div>
+      </div>
+    </div>
+    <div id='oi' class='sidebar hide' >  
+    <div  class='heading'>
+    <h1 id='changeme'>changeme</h1>
+    </div>  
+    <iframe src="https://plot.ly/~Akacoll/14.embed?link=false" frameborder="0"></iframe>
+    <iframe src="https://plot.ly/~Akacoll/8.embed?link=false" frameborder="0"></iframe>
+
+    </div>
+
+    <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoibGV0aWNpYXNnIiwiYSI6ImNqOWFuY2VwaTE2a2kyeHFtZnJlMGs4dmgifQ.oeQwk_rI1bh4v2Kk5XiH7g';
         // This adds the map to your page
         var map = new mapboxgl.Map({
@@ -45,10 +45,544 @@
           // style URL
           style: 'mapbox://styles/mapbox/light-v9',
           // initial position in [lon, lat] format
-          center: [-47.065075, -22.818063,],
+          center: [-47.065075, -22.818063],
           // initial zoom
           zoom: 14
         });
-</script>
-</body>
+
+        var stores = 
+
+        {
+          "type": "FeatureCollection",
+          "features": [
+      {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.067530,-22.823842]
+              },
+              "properties": {
+                "unidade": "CGU",
+                "mulheres": "31",
+                "homens": "33"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.071063,-22.818033]
+              },
+              "properties": {
+                "unidade": "CLE",
+                "mulheres": "0",
+                "homens": "6"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.111230,-22.794999]
+              },
+              "properties": {
+                "unidade": "CPQBA",
+                "mulheres": "4",
+                "homens": "0"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.418239,-22.555996]
+              },
+              "properties": {
+                "unidade": "FCA",
+                "mulheres": "1260",
+                "homens": "1408"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.065458,-22.824508]
+              },
+              "properties": {
+                "unidade": "FCF",
+                "mulheres": "193",
+                "homens": "52"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.063109,-22.830187]
+              },
+              "properties": {
+                "unidade": "FCM",
+                "mulheres": "1910",
+                "homens": "1062"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.065774,-22.816600]
+              },
+              "properties": {
+                "unidade": "FE",
+                "mulheres": "786",
+                "homens": "284"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.067369,-22.820462]
+              },
+              "properties": {
+                "unidade": "FEA",
+                "mulheres": "817",
+                "homens": "345"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.060881,-22.819335]
+              },
+              "properties": {
+                "unidade": "FEAGRI",
+                "mulheres": "179",
+                "homens": "356"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.062033,-22.816584]
+              },
+              "properties": {
+                "unidade": "FEC",
+                "mulheres": "460",
+                "homens": "590"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.066425,-22.820958]
+              },
+              "properties": {
+                "unidade": "FEEC",
+                "mulheres": "231",
+                "homens": "1028"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.072662,-22.815245]
+              },
+              "properties": {
+                "unidade": "FEF",
+                "mulheres": "296",
+                "homens": "445"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.065926,-22.819567]
+              },
+              "properties": {
+                "unidade": "FEM",
+                "mulheres": "285",
+                "homens": "1533"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.063399,-22.830968]
+              },
+              "properties": {
+                "unidade": "FENF",
+                "mulheres": "255",
+                "homens": "25"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.065623,-22.820421]
+              },
+              "properties": {
+                "unidade": "FEQ",
+                "mulheres": "446",
+                "homens": "524"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.649804,-22.702861]
+              },
+              "properties": {
+                "unidade": "FOP",
+                "mulheres": "614",
+                "homens": "286"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.427585,-22.563874]
+              },
+              "properties": {
+                "unidade": "FT",
+                "mulheres": "511",
+                "homens": "822"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.064503,-22.815407]
+              },
+              "properties": {
+                "unidade": "IA",
+                "mulheres": "675",
+                "homens": "574"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.069409,-22.819369]
+              },
+              "properties": {
+                "unidade": "IB",
+                "mulheres": "819",
+                "homens": "490"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.063961,-22.813748]
+              },
+              "properties": {
+                "unidade": "IC",
+                "mulheres": "160",
+                "homens": "969"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.065787,-22.814770]
+              },
+              "properties": {
+                "unidade": "IE",
+                "mulheres": "320",
+                "homens": "568"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.069355,-22.815140]
+              },
+              "properties": {
+                "unidade": "IEL",
+                "mulheres": "678",
+                "homens": "317"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.068355,-22.815012]
+              },
+              "properties": {
+                "unidade": "IFCH",
+                "mulheres": "932",
+                "homens": "917"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.067310,-22.817600]
+              },
+              "properties": {
+                "unidade": "IFGW",
+                "mulheres": "231",
+                "homens": "732"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.065395,-22.824003]
+              },
+              "properties": {
+                "unidade": "IG",
+                "mulheres": "358",
+                "homens": "473"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.067598,-22.815650]
+              },
+              "properties": {
+                "unidade": "IMECC",
+                "mulheres": "361",
+                "homens": "767"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.067542,-22.819438]
+              },
+              "properties": {
+                "unidade": "IQ",
+                "mulheres": "508",
+                "homens": "505"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.067052,-22.824371]
+              },
+              "properties": {
+                "unidade": "PRG",
+                "mulheres": "161",
+                "homens": "96"
+              }
+            }
+            
+              ]
+            }
+      
+      ;
+            // This adds the data to the map
+            map.on('load', function (e) {
+              // Add the data to your map as a layer
+              map.addLayer({
+                  "id": "locations",
+                  "type": "symbol",
+                  // Add a GeoJSON source containing place coordinates and information.
+                  "source": {
+                    "type": "geojson",
+                    "data": stores
+                    },
+                  "layout": {
+                    "icon-image": "college-15",
+                    "icon-allow-overlap": true,
+                    }
+                });
+              // Initialize the list
+              buildLocationList(stores);
+            });
+
+            // Add an event listener for when a user clicks on the map
+    map.on('click', function(e) {
+    // Query all the rendered points in the view
+    var features = map.queryRenderedFeatures(e.point, { layers: ['locations'] });
+    if (features.length) {
+      var clickedPoint = features[0];
+      // 1. Fly to the point
+      flyToStore(clickedPoint);
+      // 2. Close all other popups and display popup for clicked store
+      createPopUp(clickedPoint);
+
+
+      // 3. Highlight listing in sidebar (and remove highlight for all other listings)
+      var activeItem = document.getElementsByClassName('active');
+      if (activeItem[0]) {
+        activeItem[0].classList.remove('active');
+      }
+      // Find the index of the store.features that corresponds to the clickedPoint that fired the event listener
+      var selectedFeature = clickedPoint.properties.address;
+
+      for (var i = 0; i < stores.features.length; i++) {
+        if (stores.features[i].properties.address === selectedFeature) {
+          selectedFeatureIndex = i;
+          break;
+        }
+      }
+      // Select the correct list item using the found index and add the active class
+      var listing = document.getElementById('listing-' + selectedFeatureIndex);
+      listing.classList.add('active');
+
+      var div = document.getElementById('tchau');
+      div.style.display = 'none';
+
+      document.getElementById("oi").className = "sidebar show";
+      
+
+      
+    }
+    });
+            function buildLocationList(data) {
+                for (i = 0; i < data.features.length; i++) {
+                  // Create an array of all the stores and their properties
+                  var currentFeature = data.features[i];
+                  // Shorten data.feature.properties to just `prop` so we're not
+                  // writing this long form over and over again.
+                  var prop = currentFeature.properties;
+                  // Select the listing container in the HTML
+                  var listings = document.getElementById('listings');
+                  // Append a div with the class 'item' for each store 
+                  var listing = listings.appendChild(document.createElement('div'));
+                  listing.className = 'item';
+                  listing.id = "listing-" + i;
+            
+                  // Create a new link with the class 'title' for each store 
+                  // and fill it with the store address
+                  var link = listing.appendChild(document.createElement('a'));
+                  link.href = '#';
+                  link.className = 'title';
+                  link.dataPosition = i;
+                  link.innerHTML = prop.unidade;
+            
+                  // Create a new div with the class 'details' for each store 
+                  // and fill it with the city and phone number
+                  var details = listing.appendChild(document.createElement('div'));
+                  details.innerHTML =  nomeInstPorUni(prop.unidade);
+                  if (prop.phone) {
+                    details.innerHTML += ' &middot; ' + prop.phoneFormatted;
+                  }
+                  
+                  // Add an event listener for the links in the sidebar listing
+    link.addEventListener('click', function(e) {
+    // Update the currentFeature to the store associated with the clicked link
+    var clickedListing = data.features[this.dataPosition];
+    // 1. Fly to the point associated with the clicked link
+    flyToStore(clickedListing);
+    // 2. Close all other popups and display popup for clicked store
+    createPopUp(clickedListing);
+    // 3. Highlight listing in sidebar (and remove highlight for all other listings)
+    var activeItem = document.getElementsByClassName('active');
+    if (activeItem[0]) {
+      activeItem[0].classList.remove('active');
+    }
+    this.parentNode.classList.add('active');
+    });
+
+
+                }
+              }
+
+              function flyToStore(currentFeature) {
+                map.flyTo({
+                  center: currentFeature.geometry.coordinates,
+                  zoom: 15
+                });
+              }
+              
+              function createPopUp(currentFeature) {          
+                var popUps = document.getElementsByClassName('mapboxgl-popup');
+                // Check if there is already a popup on the map and if so, remove it
+                
+                if (popUps[0]) popUps[0].remove();
+                var popup = new mapboxgl.Popup({ closeOnClick: false })
+                  .setLngLat(currentFeature.geometry.coordinates)
+                  .setHTML('<h3>'+ currentFeature.properties.unidade + '</h3>' +
+                    '<h4>Mulheres: ' + currentFeature.properties.mulheres + '</h4>'+'<h4>Homens: ' + currentFeature.properties.homens + '</h4>'+'<h4><button onclick="backHome(); return true;">Volta</button>' + '</h4>')
+                  .addTo(map);
+
+                  document.getElementById("changeme").innerHTML = currentFeature.properties.unidade;
+                  pagWebUnidade(currentFeature.properties.unidade);
+              }
+
+              function backHome() {
+                var popUps = document.getElementsByClassName('mapboxgl-popup');
+                // Check if there is already a popup on the map and if so, remove it
+                if (popUps[0]) popUps[0].remove();
+                $("#tchau").css("display", "block");
+                document.getElementById("oi").className = "sidebar hide";
+                document.getElementById("changeme").innerHTML = "sai";
+              }
+
+              function pagWebUnidade(unidade) {
+                var dict = {
+                        'CGU': "https://plot.ly/~Akacoll/18.embed?link=false",
+                        'FCM': "https://plot.ly/~Akacoll/16.embed?link=false",
+                        'FEM' : 'https://plot.ly/~Akacoll/14.embed?link=false',
+                        'IE' : 'https://plot.ly/~Akacoll/20.embed?link=false',
+                        'IFCH' : 'https://plot.ly/~Akacoll/12.embed?link=false'
+                      };
+                document.getElementById("pagWeb").attributes["src"].value = dict[unidade];
+              }
+
+              function nomeInstPorUni(unidade){
+                dict = {
+                  "PRG" : "Pró-Reitoria de Graduação" ,
+                  "IQ" : "Instituto de Química",
+                  "IMECC" : "Instituto de Matemática, Estatística e Computação Científica",
+                  "IG" : "Instituto de Geografia",
+                  "IFGW" : "Instituto de Física Gleb Wataghin",
+                  "IFCH" : "Instituto de Filosofia e Ciências Humanas",
+                  "IEL" : "Instituto de Estudos da Linguagem",
+                  "IE" : "Instituto de Economia",
+                  "IC" : "Instituto de Computação",
+                  "IB" : "Instituto de Biologia",
+                  "IA" : "Instituto de Artes",
+                  "FT" : "Faculdade de Tecnologia",
+                  "FOP" : "Faculdade de Odontologia de Piracicaba",
+                  "FEQ" : "Faculdade de Engenharia Química",
+                  "FENF" : "Faculdade de Enfermagem",
+                  "FEM" : "Faculdade de Engenharia Mecânica",
+                  "FEF" : "Faculdade de Educação Física",
+                  "FEEC" : "Faculdade de Engenharia Elétrica e Computação",
+                  "FEC" : "Faculdade de Engenharia Civil, Arquitetura e Urbanismo",
+                  "FEAGRI" : "Faculdade de Engenharia Agrícola",
+                  "FEA" : "Faculdade de Engenharia de Alimentos",
+                  "FE" : "Faculdade de Educação",
+                  "FCM" : "Faculdade de Ciências Médicas",
+                  "FCF" : "Faculdade de Ciências Farmacêuticas",
+                  "FCA" : "Faculdade de Ciências Aplicadas",
+                  "CPQBA" : "Centro Pluridisciplinar de Pesquisas Químicas, Biológicas e Agrícolas",
+                  "CLE" : "Centro de Lógica, Epistemologia e História da Ciência",
+                  "CGU" : "Coordenadoria Geral da Universidade",
+                  "" : ""
+                }
+                return dict[unidade];
+              }
+        
+    </script>
+  </body>
+
 </html>
