@@ -1,0 +1,33 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "IB"
+      },
+      "geometry": {
+        "coordinates": [
+          -47.069388,
+          -22.819357
+        ],
+        "type": "Point"
+      },
+      "id": "91054341eebcf0245ded4964ee35f7f0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sigla": "IQ"
+      },
+      "geometry": {
+        "coordinates": [
+          -47.067722,
+          -22.8185
+        ],
+        "type": "Point"
+      },
+      "id": "916c44673b6e5460338a5b5e3c716f3d"
+    }
+  ],
+  "type": "FeatureCollection"
+}

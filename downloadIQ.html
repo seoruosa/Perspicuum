@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      .btn-group button {
+        background-color: #8B0000; /* Green background */
+        border: 1px solid #ffffff; /* Green border */
+        color: white; /* White text */
+        padding: 10px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+    }
+    
+    .btn-group button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    table {
+        border-collapse: collapse;
+        border: 2px black solid;
+        font: 12px sans-serif;
+    }
+
+    td {
+        border: 1px black solid;
+        padding: 5px;
+    }
+    
+    /* Add a background color on hover */
+    .btn-default{
+        background-color: rgb(151, 86, 86) !important;
+    }
+
+    .btn-selected{
+        background-color: #8B0000 !important;
+    }
+    
+    
+    </style>
+  </head>
+  <body>
+    <div class="btn-group" style="width:100%">
+            <button class="btn-default" style="width:33.3%">Resumo</button>
+            <button class="btn-default" background-color=#4CAF50 style="width:33.3%">Relatórios</button>
+            <button class="btn-selected" style="width:33.3%">Dados</button>
+    </div>
+    <h3><a href="/DB/IQ/IQexcel.xlsx" download>
+        Receitas e despesas (Excel)
+        </h3>
+     
+  </body>
+</html>

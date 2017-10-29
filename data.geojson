@@ -1,0 +1,260 @@
+
+			{
+        "type": "FeatureCollection",
+        "features": [
+		{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.823842, -47.067530]
+            },
+            "properties": {
+              "unidade": "CGU"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.818033, -47.071063]
+            },
+            "properties": {
+              "unidade": "CLE"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.794999, -47.111230]
+            },
+            "properties": {
+              "unidade": "CPQBA"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.555996, -47.418239]
+            },
+            "properties": {
+              "unidade": "FCA"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.824508, -47.065458]
+            },
+            "properties": {
+              "unidade": "FCF"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.830187, -47.063109]
+            },
+            "properties": {
+              "unidade": "FCM"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.816600, -47.065774]
+            },
+            "properties": {
+              "unidade": "FE"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.820462, -47.067369]
+            },
+            "properties": {
+              "unidade": "FEA"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.819335, -47.060881]
+            },
+            "properties": {
+              "unidade": "FEAGRI"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.816584, -47.062033]
+            },
+            "properties": {
+              "unidade": "FEC"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.820958, -47.066425]
+            },
+            "properties": {
+              "unidade": "FEEC"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.815245, -47.072662]
+            },
+            "properties": {
+              "unidade": "FEF"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.819567, -47.065926]
+            },
+            "properties": {
+              "unidade": "FEM"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.830968, -47.063399]
+            },
+            "properties": {
+              "unidade": "FENF"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.820421, -47.065623]
+            },
+            "properties": {
+              "unidade": "FEQ"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.702861, -47.649804]
+            },
+            "properties": {
+              "unidade": "FOP"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.563874, -47.427585]
+            },
+            "properties": {
+              "unidade": "FT"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.815407, -47.064503]
+            },
+            "properties": {
+              "unidade": "IA"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.819369, -47.069409]
+            },
+            "properties": {
+              "unidade": "IB"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.813748, -47.063961]
+            },
+            "properties": {
+              "unidade": "IC"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.814770, -47.065787]
+            },
+            "properties": {
+              "unidade": "IE"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.815140, -47.069355]
+            },
+            "properties": {
+              "unidade": "IEL"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.815012, -47.068355]
+            },
+            "properties": {
+              "unidade": "IFCH"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.817600, -47.067310]
+            },
+            "properties": {
+              "unidade": "IFGW"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.824003, -47.065395]
+            },
+            "properties": {
+              "unidade": "IG"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.815650, -47.067598]
+            },
+            "properties": {
+              "unidade": "IMECC"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.819438, -47.067542]
+            },
+            "properties": {
+              "unidade": "IQ"
+            }
+          },{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-22.824371, -47.067052]
+            },
+            "properties": {
+              "unidade": "PRG"
+            }
+          }
+        		]
+        	}
+		

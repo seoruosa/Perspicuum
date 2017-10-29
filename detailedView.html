@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      .btn-group button {
+        background-color: #8B0000; /* Green background */
+        border: 1px solid #ffffff; /* Green border */
+        color: white; /* White text */
+        padding: 10px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+    }
+    
+    .btn-group button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    table {
+        border-collapse: collapse;
+        border: 2px black solid;
+        font: 12px sans-serif;
+    }
+
+    td {
+        border: 1px black solid;
+        padding: 5px;
+    }
+    
+    /* Add a background color on hover */
+    .btn-group button:hover {
+        background-color: #8B0000;
+    }
+
+    div {
+        width: 200px;
+      }
+      
+      h2 {
+        font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      li {
+        font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+        border-bottom: 1px solid #ccc;
+      }
+      
+      li:last-child {
+        border: none;
+      }
+      
+      li a {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        width: 200px;
+      
+        -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+        -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+        -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+        -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+        transition: font-size 0.3s ease, background-color 0.3s ease;
+      }
+      
+      li a:hover {
+        font-size: 30px;
+        background: #f6f6f6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="btn-group" style="width:100%">
+            <button style="width:33.3%">Resumo</button>
+            <button style="width:33.3%">Relatórios</button>
+            <button style="width:33.3%">Dados</button>
+    </div>
+    <div>
+            <a href="https://plot.ly/~lovelace/0/?share_key=KP6jUEb8Re0WJjiwXlW17u" target="_blank" title="basic_pie_chart" style="display: block; text-align: center;"><img src="https://plot.ly/~lovelace/0.png?share_key=KP6jUEb8Re0WJjiwXlW17u" alt="basic_pie_chart" style="max-width: 100%;width: 3600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+            <script data-plotly="lovelace:0" sharekey-plotly="KP6jUEb8Re0WJjiwXlW17u" src="https://plot.ly/embed.js" async></script>
+        </div>
+        
+    <ul id="ul-test"> </ul>
+      <script>
+        var CSV = "a,b,c,d,e";
+        var arrCSV = CSV.split(','),
+            ul = document.getElementById("ul-test");
+        for (var i = 0, len = arrCSV.length; i < len; i++) {
+            var li = document.createElement("li");
+            var text = document.createTextNode(arrCSV[i]);
+            li.appendChild(text);
+            ul.appendChild(li);
+        }
+
+
+        
+    </script>
+
+    
+</html>

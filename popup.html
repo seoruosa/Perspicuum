@@ -86,24 +86,7 @@ map.on('load', function () {
         ]
       });
 
-    // When a click event occurs on a feature in the places layer, open a popup at the
-    // location of the feature, with description HTML from its properties.
-    map.on('click', 'places', function (e) {
-        new mapboxgl.Popup()
-            .setLngLat(e.features[0].geometry.coordinates)
-            .setHTML('<a href="https://pt.wikihow.com/Adicionar-um-Hiperlink-com-HTML" onclick="runMyFunction(); return true;">Do it!</a>')
-            .addTo(map);
-    });
 
-    // Change the cursor to a pointer when the mouse is over the places layer.
-    map.on('mouseenter', 'places', function () {
-        map.getCanvas().style.cursor = 'pointer';
-    });
-
-    // Change it back to a pointer when it leaves.
-    map.on('mouseleave', 'places', function () {
-        map.getCanvas().style.cursor = '';
-    });
 });
 </script>
 
