@@ -1,0 +1,344 @@
+
+			{
+        "type": "FeatureCollection",
+        "features": [
+		{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.067530,-22.823842']
+            },
+            "properties": {
+              "unidade": "CGU",
+              "mulheres": "31",
+              "homens": "33"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.071063,-22.818033']
+            },
+            "properties": {
+              "unidade": "CLE",
+              "mulheres": "0",
+              "homens": "6"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.111230,-22.794999']
+            },
+            "properties": {
+              "unidade": "CPQBA",
+              "mulheres": "4",
+              "homens": "0"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.418239,-22.555996']
+            },
+            "properties": {
+              "unidade": "FCA",
+              "mulheres": "1260",
+              "homens": "1408"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.065458,-22.824508']
+            },
+            "properties": {
+              "unidade": "FCF",
+              "mulheres": "193",
+              "homens": "52"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.063109,-22.830187']
+            },
+            "properties": {
+              "unidade": "FCM",
+              "mulheres": "1910",
+              "homens": "1062"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.065774,-22.816600']
+            },
+            "properties": {
+              "unidade": "FE",
+              "mulheres": "786",
+              "homens": "284"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.067369,-22.820462']
+            },
+            "properties": {
+              "unidade": "FEA",
+              "mulheres": "817",
+              "homens": "345"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.060881,-22.819335']
+            },
+            "properties": {
+              "unidade": "FEAGRI",
+              "mulheres": "179",
+              "homens": "356"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.062033,-22.816584']
+            },
+            "properties": {
+              "unidade": "FEC",
+              "mulheres": "460",
+              "homens": "590"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.066425,-22.820958']
+            },
+            "properties": {
+              "unidade": "FEEC",
+              "mulheres": "231",
+              "homens": "1028"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.072662,-22.815245']
+            },
+            "properties": {
+              "unidade": "FEF",
+              "mulheres": "296",
+              "homens": "445"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.065926,-22.819567']
+            },
+            "properties": {
+              "unidade": "FEM",
+              "mulheres": "285",
+              "homens": "1533"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.063399,-22.830968']
+            },
+            "properties": {
+              "unidade": "FENF",
+              "mulheres": "255",
+              "homens": "25"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.065623,-22.820421']
+            },
+            "properties": {
+              "unidade": "FEQ",
+              "mulheres": "446",
+              "homens": "524"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.649804,-22.702861']
+            },
+            "properties": {
+              "unidade": "FOP",
+              "mulheres": "614",
+              "homens": "286"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.427585,-22.563874']
+            },
+            "properties": {
+              "unidade": "FT",
+              "mulheres": "511",
+              "homens": "822"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.064503,-22.815407']
+            },
+            "properties": {
+              "unidade": "IA",
+              "mulheres": "675",
+              "homens": "574"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.069409,-22.819369']
+            },
+            "properties": {
+              "unidade": "IB",
+              "mulheres": "819",
+              "homens": "490"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.063961,-22.813748']
+            },
+            "properties": {
+              "unidade": "IC",
+              "mulheres": "160",
+              "homens": "969"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.065787,-22.814770']
+            },
+            "properties": {
+              "unidade": "IE",
+              "mulheres": "320",
+              "homens": "568"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.069355,-22.815140']
+            },
+            "properties": {
+              "unidade": "IEL",
+              "mulheres": "678",
+              "homens": "317"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.068355,-22.815012']
+            },
+            "properties": {
+              "unidade": "IFCH",
+              "mulheres": "932",
+              "homens": "917"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.067310,-22.817600']
+            },
+            "properties": {
+              "unidade": "IFGW",
+              "mulheres": "231",
+              "homens": "732"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.065395,-22.824003']
+            },
+            "properties": {
+              "unidade": "IG",
+              "mulheres": "358",
+              "homens": "473"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.067598,-22.815650']
+            },
+            "properties": {
+              "unidade": "IMECC",
+              "mulheres": "361",
+              "homens": "767"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.067542,-22.819438']
+            },
+            "properties": {
+              "unidade": "IQ",
+              "mulheres": "508",
+              "homens": "505"
+            }
+          }
+          ,{
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": ['-47.067052,-22.824371']
+            },
+            "properties": {
+              "unidade": "PRG",
+              "mulheres": "161",
+              "homens": "96"
+            }
+          }
+          
+        		]
+        	}
+		
