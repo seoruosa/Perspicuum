@@ -1,0 +1,403 @@
+{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.067530,-22.823842]
+              },
+              "properties": {
+                "unidade": "CGU",
+                "mulheres": "31",
+                "homens": "33",
+                "pagina": "https://plot.ly/~Akacoll/18.embed?link=false",
+                "nome": "Coordenadoria Geral da Universidade"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.071063,-22.818033]
+              },
+              "properties": {
+                "unidade": "CLE",
+                "mulheres": "0",
+                "homens": "6",
+                "pagina": "1",
+                "nome": "Centro de Lógica, Epistemologia e História da Ciência"
+              }
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.111230,-22.794999]
+              },
+              "properties": {
+                "unidade": "CPQBA",
+                "mulheres": "4",
+                "homens": "0",
+                "pagina": "1",
+                "nome": "Centro Pluridisciplinar de Pesquisas Químicas, Biológicas e Agrícolas"
+              }
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.418239,-22.555996]
+              },
+              "properties": {
+                "unidade": "FCA",
+                "mulheres": "1260",
+                "homens": "1408",
+                "pagina": "1",
+                "nome": "Faculdade de Ciências Aplicadas"
+              }
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.065458,-22.824508]
+              },
+              "properties": {
+                "unidade": "FCF",
+                "mulheres": "193",
+                "homens": "52",
+                "pagina": "1",
+                "nome": "Faculdade de Ciências Farmacêuticas"
+              }
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.063109,-22.830187]
+              },
+              "properties": {
+                "unidade": "FCM",
+                "mulheres": "1910",
+                "homens": "1062",
+                "pagina": "https://plot.ly/~Akacoll/16.embed?link=false",
+                "nome": "Faculdade de Ciências Médicas"
+              }
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.065774,-22.816600]
+              },
+              "properties": {
+                "unidade": "FE",
+                "mulheres": "786",
+                "homens": "284",
+                "pagina": "1",
+                "nome": "Faculdade de Educação"
+              }
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.067369,-22.820462]
+              },
+              "properties": {
+                "unidade": "FEA",
+                "mulheres": "817",
+                "homens": "345",
+                "pagina": "1",
+                "nome": "Faculdade de Engenharia de Alimentos"
+              }
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.060881,-22.819335]
+              },
+              "properties": {
+                "unidade": "FEAGRI",
+                "mulheres": "179",
+                "homens": "356",
+                "pagina": "1",
+                "nome": "Faculdade de Engenharia Agrícola"
+              }
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.062033,-22.816584]
+              },
+              "properties": {
+                "unidade": "FEC",
+                "mulheres": "460",
+                "homens": "590",
+                "pagina": "1",
+                "nome": "Faculdade de Engenharia Civil, Arquitetura e Urbanismo"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.066425,-22.820958]
+              },
+              "properties": {
+                "unidade": "FEEC",
+                "mulheres": "231",
+                "homens": "1028",
+                "pagina": "1",
+                "nome": "Faculdade de Engenharia Elétrica e Computação"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.072662,-22.815245]
+              },
+              "properties": {
+                "unidade": "FEF",
+                "mulheres": "296",
+                "homens": "445",
+                "pagina": "1",
+                "nome": "Faculdade de Educação Física"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.065926,-22.819567]
+              },
+              "properties": {
+                "unidade": "FEM",
+                "mulheres": "285",
+                "homens": "1533",
+                "pagina": "https://plot.ly/~Akacoll/14.embed?link=false",
+                "nome": "Faculdade de Engenharia Mecânica"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.063399,-22.830968]
+              },
+              "properties": {
+                "unidade": "FENF",
+                "mulheres": "255",
+                "homens": "25",
+                "pagina": "1",
+                "nome": "Faculdade de Enfermagem"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.065623,-22.820421]
+              },
+              "properties": {
+                "unidade": "FEQ",
+                "mulheres": "446",
+                "homens": "524",
+                "pagina": "1",
+                "nome": "Faculdade de Engenharia Química"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.649804,-22.702861]
+              },
+              "properties": {
+                "unidade": "FOP",
+                "mulheres": "614",
+                "homens": "286",
+                "pagina": "1",
+                "nome": "Faculdade de Odontologia de Piracicaba"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.427585,-22.563874]
+              },
+              "properties": {
+                "unidade": "FT",
+                "mulheres": "511",
+                "homens": "822",
+                "pagina": "1",
+                "nome": "Faculdade de Tecnologia"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.064503,-22.815407]
+              },
+              "properties": {
+                "unidade": "IA",
+                "mulheres": "675",
+                "homens": "574",
+                "pagina": "1",
+                "nome": "Instituto de Artes"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.069409,-22.819369]
+              },
+              "properties": {
+                "unidade": "IB",
+                "mulheres": "819",
+                "homens": "490",
+                "pagina": "1",
+                "nome": "Instituto de Biologia"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.063961,-22.813748]
+              },
+              "properties": {
+                "unidade": "IC",
+                "mulheres": "160",
+                "homens": "969",
+                "pagina": "1",
+                "nome": "Instituto de Computação"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.065787,-22.814770]
+              },
+              "properties": {
+                "unidade": "IE",
+                "mulheres": "320",
+                "homens": "568",
+                "pagina": "https://plot.ly/~Akacoll/20.embed?link=false",
+                "nome": "Instituto de Economia"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.069355,-22.815140]
+              },
+              "properties": {
+                "unidade": "IEL",
+                "mulheres": "678",
+                "homens": "317",
+                "pagina": "1",
+                "nome": "Instituto de Estudos da Linguagem"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.068355,-22.815012]
+              },
+              "properties": {
+                "unidade": "IFCH",
+                "mulheres": "932",
+                "homens": "917",
+                "pagina": "https://plot.ly/~Akacoll/12.embed?link=false",
+                "nome" : "Instituto de Filosofia e Ciências Humanas"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.067310,-22.817600]
+              },
+              "properties": {
+                "unidade": "IFGW",
+                "mulheres": "231",
+                "homens": "732",
+                "pagina": "1",
+                "nome": "Instituto de Física Gleb Wataghin"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.065395,-22.824003]
+              },
+              "properties": {
+                "unidade": "IG",
+                "mulheres": "358",
+                "homens": "473",
+                "pagina": "1",
+                "nome": "Instituto de Geografia"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.067598,-22.815650]
+              },
+              "properties": {
+                "unidade": "IMECC",
+                "mulheres": "361",
+                "homens": "767",
+                "pagina": "1",
+                "nome": "Instituto de Matemática, Estatística e Computação Científica"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.067542,-22.819438]
+              },
+              "properties": {
+                "unidade": "IQ",
+                "mulheres": "508",
+                "homens": "505",
+                "pagina": "1",
+                "nome": "Instituto de Química"
+              }
+            }
+            ,{
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [-47.067052,-22.824371]
+              },
+              "properties": {
+                "unidade": "PRG",
+                "mulheres": "161",
+                "homens": "96",
+                "pagina": "1",
+                "nome": "Pró-Reitoria de Graduação"
+              }
+            }
+            
+              ]
+            }
